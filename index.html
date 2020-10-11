@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
     <title>Tarea Wireframe</title>
 </head>
@@ -21,7 +22,7 @@
             </nav>
             <div class="f-block">
                 <div class="container-logo">
-                    <img class="band-logo" src="img/the-who.png" alt="Red Hot Chili Peppers logo" title="Red Hot Chili Peppers logo">
+                    <img class="band-logo" src="img/the-who.png" alt="The Who band logo" title="The Who band logo">
                     <h3>ON TOUR <span class="red">NOW</span></h3>
                     <button class="btn-round btn-black">GET TICKETS</button>
                 </div>
@@ -51,35 +52,38 @@
         </div>
         <div class="fo-block">
             <div class="container-events">
-                <h2>UPCOMING EVENTS</h2>
-                <p>MAR 20, 2016</p>
-                <p class="bold">BUENOS AIRES, ARGENTINA</p>
-                <p>NICETO CLUB</p>
-                <br>
-                <p>MAR 23, 2016</p>
-                <p class="bold">SANTIAGO, CHILE</p>
-                <p>BLONDIE</p>
-                <br>
-                <p>JUL 23, 2016</p>
-                <p class="bold">SAN BERNARDINO, CA</p>
-                <p>LOST HIGHWAY 2016</p>
+                <div class="events-text">
+                    <h2><strong>UPCOMING EVENTS</strong></h2>
+                    <p>MAR 20, 2016</p>
+                    <strong>BUENOS AIRES, ARGENTINA</strong>
+                    <p>NICETO CLUB</p>
+                    <p>MAR 23, 2016</p>
+                    <strong>SANTIAGO, CHILE</strong>
+                    <p>BLONDIE</p>
+                    <p>JUL 23, 2016</p>
+                    <strong>SAN BERNARDINO, CA</strong>
+                    <p>LOST HIGHWAY 2016</p>
+                </div>
+                <div class="events-image">
+                    <img src="img/player-2.png" alt="Electric guitar player">
+                </div>
             </div>
         </div>
         <div class="l-block">
             <div class="container-about">
                 <h2>ABOUT THE BAND</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, nulla consequuntur! Architecto cum voluptatibus unde culpa tenetur praesentium ducimus ab dignissimos ipsa facere ullam labore vero excepturi optio, repudiandae perspiciatis.</p>
-                <button>CONTINUE READING</button>
+                <button class="btn-round btn-about">CONTINUE READING</button>
             </div>
         </div>
     </main>
     <footer>
         <div class="container-footer">
-            <ul>
-                <li><a href="#"><h3>SOCIAL MEDIA</h3></a></li>
-                <li><a href="#">{{Instagram-logo}}</a></li>
-                <li><a href="#">{{YouTube-logo}}</a></li>
-                <li><a href="#">{{Facebook-logo}}</a></li>
+            <ul class="container-flex footer">
+                <li class="bold">SOCIAL MEDIA</li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
             </ul>
         </div>
     </footer>

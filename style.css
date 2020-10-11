@@ -37,9 +37,8 @@ nav a {
 
 nav a:hover,
 nav a:focus {
-    color: #1792d2;
+    color: #000099;
 }
-
 
 .container {
     width: 90%;
@@ -48,7 +47,6 @@ nav a:focus {
 
 .container-flex {
     display: flex;
-    justify-content: space-evenly;
 }
 
 .red {
@@ -70,7 +68,7 @@ nav a:focus {
 
 .btn-round:focus, 
 .btn-round:hover {
-    background:firebrick;
+    background:#000099;
     cursor: pointer;
 }
 
@@ -87,7 +85,7 @@ nav a:focus {
 
 .s-block {
     margin-top: 40px;
-    margin-bottom: 4g0px;
+    margin-bottom: 40px;
 }
 
 .t-block {
@@ -99,6 +97,7 @@ nav a:focus {
 }
 
 .container-album {
+    z-index: 99;
     width: 40%;
     margin: 0 auto;
 }
@@ -122,6 +121,7 @@ nav a:focus {
 
 .player {
     width: 15%;
+    margin-right: 13%;
 }
 
 #player {
@@ -146,4 +146,83 @@ nav a:focus {
     cursor: pointer;
     color: firebrick;
     font-size: 1.2em;
+}
+
+.fo-block {
+    width: 100%;
+}
+
+.container-events {
+    padding-left: 50px;
+    display: flex;
+    margin: 0;
+}
+
+.events-text {
+    width: 45%;
+}
+
+.events-image {
+    height: 100%;
+    width: 55%;
+    background: firebrick;
+}
+.events-image img {
+    padding: 25px;
+    max-height: 400px;
+    margin-left: 60px;
+}
+
+.l-block {
+    background-image: url('img/l-div.jpg');
+    width: 100%;
+    object-fit: cover;
+}
+
+.container-about {
+    padding: 30px;
+    width: 40%;
+    margin-left: 50%;
+    color: white;
+}
+
+
+
+.container-footer {
+    background: firebrick;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.container-footer li {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.btn-about {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.btn-about:hover {
+    background:firebrick;
+}
+
+.footer {
+    width: 40%;
+    margin: 0 auto;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.fab {
+    color: #c4c4c4;
+}
+
+.fab:hover {
+    color: #000099;
 }
